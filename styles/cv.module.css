@@ -1,0 +1,126 @@
+.container {
+  @apply p-2 text-gray-900 max-w-2xl mx-auto max-h-full text-sm;
+
+  font-family: 'Inter';
+
+  grid-template-columns: 3fr 1fr;
+
+  header {
+    @apply flex flex-col justify-center items-start col-span-2 text-center mt-6 mb-10;
+
+    h1 {
+      @apply text-4xl w-full text-center font-extrabold;
+    }
+    p {
+      @apply text-center w-full mt-2 leading-6;
+    }
+
+    ul {
+      @apply my-2 w-full;
+
+      li {
+        @apply leading-6;
+        svg {
+          @apply mr-1 w-3 inline;
+        }
+        a {
+          @apply font-semibold;
+        }
+      }
+    }
+  }
+
+  a {
+    @apply text-blue-700 font-semibold;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+
+  a:visited {
+    @apply text-purple-800;
+  }
+}
+
+.article {
+
+  @apply col-span-2 mb-10;
+
+  h2 {
+    @apply mb-0 text-2xl border-b font-bold;
+  }
+
+  h3 {
+    @apply mt-6 mb-2 text-lg font-semibold;
+  }
+
+  p {
+    @apply my-2 font-light;
+  }
+
+  h3+time {
+    @apply text-xs font-hairline italic;
+  }
+
+  ul {
+
+    @apply mt-1 font-light;
+
+    li:not(:first-of-type) {
+      @apply mt-1;
+    }
+
+    li:before {
+      content: '';
+      @apply text-gray-700 inline-block mr-1 font-bold transform scale-150;
+    }
+
+    li>ul {
+      @apply ml-3 mt-1 text-xs font-light;
+    }
+
+  }
+
+  h3+time {
+    @apply mb-2 inline-block;
+  }
+
+  @screen sm {
+
+    @apply grid;
+    grid-template-columns: 3fr 1fr;
+
+    * {
+      @apply col-span-2
+    }
+
+    h3, h3+time {
+      @apply mt-8 mb-2 col-span-1;
+    }
+
+    h3+time {
+      @apply pt-1 text-right;
+    }
+
+    ul {
+
+      @apply mt-2;
+
+      li:before {
+        content: '';
+        @apply text-gray-700 inline-block mr-2 font-bold transform scale-150;
+      }
+
+      li>ul {
+        @apply ml-4 mt-1;
+      }
+
+    }
+
+    p {
+      @apply mt-1 mb-0;
+    }
+
+  }
+}
