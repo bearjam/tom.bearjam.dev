@@ -37,10 +37,6 @@
   a:hover {
     @apply underline;
   }
-
-  a:visited {
-    @apply text-purple-800;
-  }
 }
 
 .article {
