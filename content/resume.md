@@ -13,7 +13,7 @@ A JAMstack web development company.
 
 ### Travel & Self-Directed Learning
 
-<time>Feb 2018 - Dec 2019</time>
+<time>Jan 2018 - Dec 2019</time>
 
 During my travels across Nepal and India, I spent some time learning:
 
@@ -24,7 +24,7 @@ During my travels across Nepal and India, I spent some time learning:
 
 ### Prospective Founder @ [Free the Data](https://sdinnovation.org/projects/#freethedata)
 
-<time>June 2017 - Sept 2017</time>
+<time>June 2017 - Dec 2017</time>
 
 This project was developed from idea to business plan with social
 startup incubator [Social Digital Innovation](https://sdinnovation.org/projects/#freethedata).
