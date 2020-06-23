@@ -30,11 +30,9 @@ During my travels across Nepal and India, I spent some time learning:
 <time>June 2017 - Dec 2017</time>
 
 This project was developed from idea to business plan with social startup
-incubator
-[Social Digital Innovation](https://sdinnovation.org/projects/#freethedata).
-Free the Data was an initiative to develop a suite of open-source software
-enabling users to cross-channel their data into user-managed, distributed
-stores.
+incubator [Social Digital Innovation](https://sdinnovation.org). Free the Data
+was an initiative to develop a suite of open-source software enabling users to
+cross-channel their data into user-managed, distributed stores.
 
 - Prototyped a React Native location-tracking mobile app
 - Basics in business and entrepreneurship
