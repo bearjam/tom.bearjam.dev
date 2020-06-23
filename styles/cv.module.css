@@ -1,7 +1,7 @@
 .container {
-  @apply p-2 text-gray-900 max-w-2xl mx-auto max-h-full text-sm;
+  @apply p-2 text-gray-900 max-w-3xl mx-auto max-h-full text-sm;
 
-  font-family: 'Inter';
+  font-family: "Inter";
 
   grid-template-columns: 3fr 1fr;
 
@@ -40,7 +40,6 @@
 }
 
 .article {
-
   @apply col-span-2 mb-10;
 
   h2 {
@@ -55,12 +54,11 @@
     @apply my-2 font-light;
   }
 
-  h3+time {
+  h3 + time {
     @apply text-xs font-hairline italic;
   }
 
   ul {
-
     @apply mt-1 font-light;
 
     li:not(:first-of-type) {
@@ -68,55 +66,51 @@
     }
 
     li:before {
-      content: '';
+      content: "";
       @apply text-gray-700 inline-block mr-1 font-bold transform scale-150;
     }
 
-    li>ul {
+    li > ul {
       @apply ml-3 mt-1 text-xs font-light;
     }
-
   }
 
-  h3+time {
+  h3 + time {
     @apply mb-2 inline-block;
   }
 
   @screen sm {
-
     @apply grid;
     grid-template-columns: 3fr 1fr;
 
     * {
-      @apply col-span-2
+      @apply col-span-2;
     }
 
-    h3, h3+time {
+    h3,
+    h3 + time {
       @apply mt-8 mb-2 col-span-1;
     }
 
-    h3+time {
+    h3 + time {
       @apply pt-1 text-right;
     }
 
     ul {
-
       @apply mt-2;
 
       li:before {
-        content: '';
+        content: "";
         @apply text-gray-700 inline-block mr-2 font-bold transform scale-150;
       }
 
-      li>ul {
+      li > ul {
         @apply ml-4 mt-1;
       }
-
     }
 
     p {
       @apply mt-1 mb-0;
     }
-
   }
 }
