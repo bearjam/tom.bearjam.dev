@@ -9,8 +9,10 @@ A JAMstack web development company.
 - Server-side rendering (SSR) frameworks (Gatsby, Next)
 - Serverless architecture (Netlify, Vercel)
 - Progressive Web Apps (PWA's)
-- [Fluid UI design and animation](https://bearjam/dev/blog/low-hanging-3d-web-fruit-a-spinner) (React Spring, Framer Motion)
-- [3D web technology](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer) (WebGL, Three.js, react-three-fiber)
+- [Fluid UI design and animation](https://bearjam.dev/blog/low-hanging-3d-web-fruit-a-spinner)
+  (React Spring, Framer Motion)
+- [3D web technology](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
+  (WebGL, Three.js, react-three-fiber)
 
 ### Travel & Self-Directed Learning
 
@@ -27,11 +29,12 @@ During my travels across Nepal and India, I spent some time learning:
 
 <time>June 2017 - Dec 2017</time>
 
-This project was developed from idea to business plan with social
-startup incubator [Social Digital Innovation](https://sdinnovation.org/projects/#freethedata).
-Free the Data was an initiative to develop a suite of open-source
-software enabling users to cross-channel their data into user-managed,
-distributed stores.
+This project was developed from idea to business plan with social startup
+incubator
+[Social Digital Innovation](https://sdinnovation.org/projects/#freethedata).
+Free the Data was an initiative to develop a suite of open-source software
+enabling users to cross-channel their data into user-managed, distributed
+stores.
 
 - Prototyped a React Native location-tracking mobile app
 - Basics in business and entrepreneurship
@@ -42,7 +45,8 @@ distributed stores.
 
 Automation development for core network and server configuration management.
 
-- Open-source DevOps tooling (e.g. Terraform, Ansible and so on); Python/Golang programming, shell scripting
+- Open-source DevOps tooling (e.g. Terraform, Ansible and so on); Python/Golang
+  programming, shell scripting
 - Proof of concept deployment of OpenStack
 - [Contributed to OpenStack Kolla](https://blueprints.launchpad.net/kolla/+spec/neutron-bgp-dragent)
 - Developed in-house configuration management tools
@@ -53,8 +57,8 @@ Automation development for core network and server configuration management.
 
 <time>May 2014 - Oct 2015</time>
 
-24x7 service desk in NOC supporting SCC’s secure multi-tenant
-government cloud platform known as Sentinel.
+24x7 service desk in NOC supporting SCC’s secure multi-tenant government cloud
+platform known as Sentinel.
 
 - User-facing technical support
 - NSV SC clearance required
