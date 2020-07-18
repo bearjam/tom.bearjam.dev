@@ -39,7 +39,7 @@ export default () => {
             </a>
           </li>
         </ul>
-        <p>React developer; systems engineer.</p>
+        <p>Polyglot programmer; systems engineer.</p>
         <p>
           Lover of the declarative, functional style;
           <br />
