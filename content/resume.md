@@ -6,13 +6,16 @@
 
 A JAMstack web development company.
 
-- Server-side rendering (SSR) frameworks (Gatsby, Next)
-- Serverless architecture (Netlify, Vercel)
-- Progressive Web Apps (PWA's)
+- [Fluid UI design and animation](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
+  (Framer Motion, React Spring)
 - [3D web technology](https://bearjam.dev/blog/low-hanging-3d-web-fruit-a-spinner)
   (WebGL, Three.js, react-three-fiber)
-- [Fluid UI design and animation](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
-  (React Spring, Framer Motion)
+- Delivered [our first client project](https://nestwellbeing.com) (GatsbyJS for
+  SSR, Twilio SendGrid Email API for form submissions)
+- Currently building bespoke e-commerce project (Next.js SSG/SSR, Strapi CMS
+  with GraphQL API, Stripe payments)
+- Automated deployment (CI/CD) and "serverless" API routes (Vercel, Netlify,
+  Google Cloud)
 
 ### Travel & Self-Directed Learning
 
@@ -43,8 +46,8 @@ cross-channel their data into user-managed, distributed stores.
 
 Automation development for core network and server configuration management.
 
-- Open-source DevOps tooling (e.g. Terraform, Ansible and so on); Python/Golang
-  programming, shell scripting
+- Open-source DevOps tooling (e.g. Docker, Kubernetes, Ansible etc.);
+  Python/Golang programming, shell scripting
 - Proof of concept deployment of OpenStack
 - [Contributed to OpenStack Kolla](https://blueprints.launchpad.net/kolla/+spec/neutron-bgp-dragent)
 - Developed in-house configuration management tools
