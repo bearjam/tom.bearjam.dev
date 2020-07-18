@@ -19,7 +19,7 @@
       @apply my-2 w-full;
 
       li {
-        @apply leading-6;
+        @apply leading-6 mt-1;
         svg {
           @apply mr-1 w-3 inline;
         }
