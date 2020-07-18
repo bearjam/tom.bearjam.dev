@@ -9,10 +9,10 @@ A JAMstack web development company.
 - Server-side rendering (SSR) frameworks (Gatsby, Next)
 - Serverless architecture (Netlify, Vercel)
 - Progressive Web Apps (PWA's)
-- [Fluid UI design and animation](https://bearjam.dev/blog/low-hanging-3d-web-fruit-a-spinner)
-  (React Spring, Framer Motion)
-- [3D web technology](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
+- [3D web technology](https://bearjam.dev/blog/low-hanging-3d-web-fruit-a-spinner)
   (WebGL, Three.js, react-three-fiber)
+- [Fluid UI design and animation](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
+  (React Spring, Framer Motion)
 
 ### Travel & Self-Directed Learning
 
