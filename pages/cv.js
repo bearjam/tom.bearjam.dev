@@ -41,7 +41,7 @@ export default () => {
         </ul>
         <p>Polyglot programmer; systems engineer.</p>
         <p>
-          Lover of the declarative, functional style;
+          Functional, declarative, creative coding;
           <br />
           Unix philosophy; interactive learning.
         </p>
