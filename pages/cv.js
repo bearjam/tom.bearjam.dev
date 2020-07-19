@@ -18,6 +18,14 @@ export default () => {
       <header className={css.header}>
         <h1>Thomas O'Neill</h1>
         <ul id="social-links">
+          <li className="text-xs mb-2">
+            {/* <SvgLink />
+            <a href="https://tom.bearjam.dev/cv">View this CV on the web</a> */}
+            <SvgDescription />
+            <a href="https://tom.bearjam.dev/thomas-oneill-cv-2020-07.pdf">
+              View as PDF
+            </a>
+          </li>
           <li>
             <SvgEnvelope />
             <a href="mailto:tom@bearjam.dev">tom@bearjam.dev</a>
@@ -30,12 +38,6 @@ export default () => {
             <SvgLinkedin />
             <a href="https://www.linkedin.com/in/tomatbearjam">
               linkedin.com/in/tomatbearjam
-            </a>
-          </li>
-          <li>
-            <SvgDescription />
-            <a href="https://tom.bearjam.dev/thomas-oneill-cv-2020-07.pdf">
-              View as PDF
             </a>
           </li>
         </ul>
