@@ -32,7 +32,7 @@ export default () => {
           </li>
           <li>
             <SvgGithub />
-            <a href="https://github.com/jambeartom">jambeartom</a>
+            <a href="https://github.com/mysterybear">mysterybear</a>
           </li>
           <li>
             <SvgLinkedin />
