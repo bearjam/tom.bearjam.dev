@@ -4,24 +4,28 @@
 
 <time>Jan 2020 - Present</time>
 
-A JAMstack web development company.
+A web development company. Recent work:
 
-- [Fluid UI design and animation](https://bearjam.dev/blog/two-ui-patterns-navigation-react-framer)
-  (Framer Motion, React Spring)
-- [3D web technology](https://bearjam.dev/blog/low-hanging-3d-web-fruit-a-spinner)
-  (WebGL, Three.js, react-three-fiber)
-- Delivered [our first client project](https://nestwellbeing.com) (GatsbyJS for
-  SSR, Twilio SendGrid Email API for form submissions)
-- Currently building bespoke e-commerce project (Next.js SSG/SSR, Strapi CMS
-  with GraphQL API, Stripe payments)
-- Automated deployment (CI/CD) and "serverless" API routes (Vercel, Netlify,
-  Google Cloud)
+- [Dream builder](https://dream.bearjam.dev): a web tool for creating digital
+  vision boards
+  - 2D application built in 3D space with react-three-fiber (Three.js)
+  - Custom shader for crop implementation (WebGL, GLSL)
+  - Self-hosted with Kubernetes/Docker on DigitalOcean
+- [Bear Bookshop](https://bearbookshop.co.uk): an e-commerce site for a local
+  bookshop
+  - Next.js React SSR framework for front-end and first-line API routes
+  - Stripe and iZettle payment API integrations
+  - Hasura GraphQL API for PostgreSQL database
+  - Self-hosted with Kubernetes/Docker on DigitalOcean
+- [Nest Wellbeing](https://nestwellbeing.co.uk): a simple landing page for a
+  local business, our first client.
+  - Built with GatsbyJS
 
 ### Travel & Self-Directed Learning
 
 <time>Jan 2018 - Dec 2019</time>
 
-During my travels across Nepal and India, I spent some time learning:
+During travels across Nepal and India, some time was spent learning:
 
 - Functional Programming in Haskell and JavaScript/TypeScript
 - Reactive programming (ReactiveX, RxJS, Elm, PureScript)

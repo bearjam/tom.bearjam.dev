@@ -1,11 +1,11 @@
-import { ThemeProvider } from 'emotion-theming';
-import Head from 'next/head';
-import React from 'react';
-import '../styles/global.css';
-import { theme as initialTheme } from '../tailwind.config';
+import { ThemeProvider } from "emotion-theming"
+import Head from "next/head"
+import React from "react"
+import "../styles/global.css"
+import { theme as initialTheme } from "../tailwind.config"
 
-export default ({ Component, pageProps }) => {
-  const Layout = Component.Layout || (x => x);
+const App = ({ Component, pageProps }) => {
+  const Layout = Component.Layout || ((x) => x)
 
   return (
     <>
@@ -17,5 +17,7 @@ export default ({ Component, pageProps }) => {
         {Layout(<Component {...pageProps} />)}
       </ThemeProvider>
     </>
-  );
-};
+  )
+}
+
+export default App
