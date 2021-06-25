@@ -9,7 +9,7 @@ import { MDXProvider } from "@mdx-js/react"
 import css from "../styles/cv.module.css"
 import SvgDescription from "../components/SvgDescription"
 
-export default () => {
+const CV = () => {
   return (
     <div className={css.container}>
       <Head>
@@ -41,7 +41,7 @@ export default () => {
             </a>
           </li>
         </ul>
-        <p>Polyglot programmer; systems engineer.</p>
+        <p>React developer; systems engineer.</p>
         <p>
           Functional, declarative, creative coding;
           <br />
@@ -56,3 +56,5 @@ export default () => {
     </div>
   )
 }
+
+export default CV

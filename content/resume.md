@@ -6,20 +6,20 @@
 
 A web development company. Recent work:
 
-- [Dream builder](https://dream.bearjam.dev): a web tool for creating digital
+- [Dream Builder](https://dream.bearjam.dev): a web tool for creating digital
   vision boards
-  - 2D application built in 3D space with react-three-fiber (Three.js)
+  - 2D application built in 3D space with React Three Fiber (Three.js)
+  - Documented in a blog post series [here](https://bearjam.dev/blog/implementing-the-dream-builder)
   - Custom shader for crop implementation (WebGL, GLSL)
+  - React Spring and Use Gesture libraries for animations and gestures
   - Self-hosted with Kubernetes/Docker on DigitalOcean
 - [Bear Bookshop](https://bearbookshop.co.uk): an e-commerce site for a local
   bookshop
   - Next.js React SSR framework for front-end and first-line API routes
   - Stripe and iZettle payment API integrations
   - Hasura GraphQL API for PostgreSQL database
+  - Framer Motion for animations
   - Self-hosted with Kubernetes/Docker on DigitalOcean
-- [Nest Wellbeing](https://nestwellbeing.co.uk): a simple landing page for a
-  local business, our first client.
-  - Built with GatsbyJS
 
 ### Travel & Self-Directed Learning
 
