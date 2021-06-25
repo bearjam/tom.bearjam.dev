@@ -6,16 +6,16 @@ const withFonts = require("next-fonts")
 
 module.exports = withFonts(
   withMDX({
-    webpack: (config, options) => {
-      // Fixes npm packages that depend on `fs` module
-      config.node = {
-        fs: "empty",
-      }
-      return config
-    },
+    // webpack: (config, options) => {
+    //   // Fixes npm packages that depend on `fs` module
+    //   config.node = {
+    //     fs: "empty",
+    //   }
+    //   return config
+    // },
     pageExtensions: ["js", "jsx", "md", "mdx"],
-    future: {
-      webpack5: false,
-    },
+    // future: {
+    //   webpack5: false,
+    // },
   })
 )
