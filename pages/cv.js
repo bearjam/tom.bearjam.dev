@@ -22,7 +22,7 @@ const CV = () => {
             {/* <SvgLink />
             <a href="https://tom.bearjam.dev/cv">View this CV on the web</a> */}
             <SvgDescription />
-            <a href="https://tom.bearjam.dev/thomas-oneill-cv-2020-07.pdf">
+            <a href="/thomas-oneill-cv-2021-07.pdf">
               View as PDF
             </a>
           </li>
