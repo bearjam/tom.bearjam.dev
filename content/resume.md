@@ -9,7 +9,8 @@ A web development company. Recent work:
 - [Dream Builder](https://dream.bearjam.dev): a web tool for creating digital
   vision boards
   - 2D application built in 3D space with React Three Fiber (Three.js)
-  - Documented in a blog post series [here](https://bearjam.dev/blog/implementing-the-dream-builder)
+  - Documented in a blog post series
+    [here](https://bearjam.dev/blog/implementing-the-dream-builder)
   - Custom shader for crop implementation (WebGL, GLSL)
   - React Spring and Use Gesture libraries for animations and gestures
   - Self-hosted with Kubernetes/Docker on DigitalOcean
@@ -20,6 +21,12 @@ A web development company. Recent work:
   - Hasura GraphQL API for PostgreSQL database
   - Framer Motion for animations
   - Self-hosted with Kubernetes/Docker on DigitalOcean
+
+<div className="mt-1">
+
+See [our blog](https://bearjam.dev/blog) for our latest experiments.
+
+</div>
 
 ### Travel & Self-Directed Learning
 
